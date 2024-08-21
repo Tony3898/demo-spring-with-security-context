@@ -1,0 +1,19 @@
+# Application Properties
+spring.application.name=demo-spring-with-security-context
+spring.devtools.restart.enabled=true
+
+# Server Properties
+server.port=9876
+
+#Database Properties
+spring.datasource.url=jdbc:mysql://localhost:3306/tony
+spring.datasource.username=tony
+spring.datasource.password=*****
+
+# Hibernate properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.open-in-view=false
+
+#Jwt
+jwt.privateKey.path=/Users/tony/Documents/playzone/sample/demo-spring-with-security-context/src/main/resources/private.pkcs8
+jwt.publicKey.path=/Users/tony/Documents/playzone/sample/demo-spring-with-security-context/src/main/resources/public.pem
